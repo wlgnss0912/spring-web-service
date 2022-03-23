@@ -20,7 +20,7 @@ test { // (2)
 dependencies {
     //(3) - Gradle6부터 compile, testCompile (Soft Deprecate) // implementation, testImplementation가 추가
     implementation('org.springframework.boot:spring-boot-starter-web')
-    implementation('org.springframework.boot:spring-boot-starter-mustache')
+    implementation('org.springframework.boot:spring-boot-starter-mustache')//머스테치 의존성 설정
 
     // lombok
     implementation('org.projectlombok:lombok')
